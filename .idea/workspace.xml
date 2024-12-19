@@ -60,65 +60,65 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.Build hhplus-tdd-jvm.executor": "Run",
-    "Gradle.PointServiceImplTest.chargePoint.executor": "Run",
-    "Gradle.PointServiceImplTest.showPoint.executor": "Run",
-    "Gradle.UserPointTest.IsUserPointMaxSaveNotOver.executor": "Run",
-    "Gradle.UserPointTest.empty.executor": "Run",
-    "Gradle.UserPointTest.isUserPointMaxSaveNotOver.executor": "Run",
-    "Gradle.hhplus-tdd-java [:io.hhplus.tdd.TddApplication.main()].executor": "Run",
-    "JUnit.ApiIntegrationTest.test1.executor": "Run",
-    "JUnit.PointControllerTest.executor": "Run",
-    "JUnit.PointControllerTest.point.executor": "Run",
-    "JUnit.PointServiceImplTest.chargePoint.executor": "Run",
-    "JUnit.PointServiceImplTest.executor": "Run",
-    "JUnit.PointServiceImplTest.showPoint.executor": "Run",
-    "JUnit.PointServiceImplTest.showPointHistory.executor": "Run",
-    "JUnit.PointServiceImplTest.usePoint.executor": "Run",
-    "JUnit.PointServiceIntegrateTest.PointServiceConcurrencyTest.executor": "Run",
-    "JUnit.PointServiceIntegrateTest.executor": "Run",
-    "JUnit.PointServiceUnitTest.checkAmount.executor": "Run",
-    "JUnit.PointServiceUnitTest.checkUserId.executor": "Run",
-    "JUnit.PointServiceUnitTest.executor": "Run",
-    "JUnit.TddApplicationTest.PointServiceConcurrencyTest.executor": "Run",
-    "JUnit.TddApplicationTest.executor": "Run",
-    "JUnit.TddApplicationTest.test1.executor": "Run",
-    "JUnit.TddApplicationTest.test2.executor": "Run",
-    "JUnit.UserPointTest.addUserPoint.executor": "Run",
-    "JUnit.UserPointTest.executor": "Run",
-    "JUnit.UserPointTest.isUserPointMaxSaveNotOver.executor": "Run",
-    "JUnit.UserPointTest.isUserPointMaxSaveOver.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.TddApplication.executor": "Run",
-    "aspect.path.notification.shown": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/intellij/hhplus-tdd-java/build.gradle.kts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build hhplus-tdd-jvm.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PointServiceImplTest.chargePoint.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PointServiceImplTest.showPoint.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserPointTest.IsUserPointMaxSaveNotOver.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserPointTest.empty.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserPointTest.isUserPointMaxSaveNotOver.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hhplus-tdd-java [:io.hhplus.tdd.TddApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApiIntegrationTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointControllerTest.point.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceImplTest.chargePoint.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceImplTest.showPoint.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceImplTest.showPointHistory.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceImplTest.usePoint.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceIntegrateTest.PointServiceConcurrencyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceIntegrateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceUnitTest.checkAmount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceUnitTest.checkUserId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PointServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TddApplicationTest.PointServiceConcurrencyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TddApplicationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TddApplicationTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TddApplicationTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserPointTest.addUserPoint.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserPointTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserPointTest.isUserPointMaxSaveNotOver.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserPointTest.isUserPointMaxSaveOver.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.TddApplication.executor&quot;: &quot;Run&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/intellij/hhplus-tdd-java/build.gradle.kts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -220,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TddApplicationTest" />
-        <item itemvalue="JUnit.PointServiceIntegrateTest" />
         <item itemvalue="JUnit.UserPointTest" />
-        <item itemvalue="JUnit.PointServiceUnitTest" />
+        <item itemvalue="JUnit.TddApplicationTest" />
         <item itemvalue="JUnit.PointServiceUnitTest.checkAmount" />
+        <item itemvalue="JUnit.PointServiceUnitTest" />
+        <item itemvalue="JUnit.PointServiceIntegrateTest" />
       </list>
     </recent_temporary>
   </component>
