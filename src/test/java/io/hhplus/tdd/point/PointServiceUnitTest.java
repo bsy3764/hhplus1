@@ -2,24 +2,23 @@ package io.hhplus.tdd.point;
 
 import io.hhplus.tdd.database.PointHistoryTable;
 import io.hhplus.tdd.database.UserPointTable;
-import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-class PointServiceImplTest {
+class PointServiceUnitTest {
 
     private UserPoint userPoint;
 
@@ -38,6 +37,14 @@ class PointServiceImplTest {
     @BeforeEach
     void createUser() {
         userPoint = new UserPoint(1L, 1000L, System.currentTimeMillis());
+    }
+
+    @Test
+    @DisplayName("UserId는 0이거나 음수일 경우 에러발생")
+    void checkUserId() {
+        long userId = 0L;
+        IllegalArgumentException e = Assertions.assertThrows(IllegalArgumentException.class, () -> pointService.showPoint(userId));
+        assertThat(e.getMessage()).isEqualTo("User Id는 0이거나 음수일 수 없습니다. UserID: " + userId);
     }
 
     @Test
